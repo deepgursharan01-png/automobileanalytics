@@ -24,7 +24,7 @@ def get_base64_of_bin_file(bin_file):
 
 # Try encoding background image (fallback gracefully if file isn't found)
 try:
-    img_base64 = get_base64_of_bin_file("por.webp")
+    img_base64 = get_base64_of_bin_file("dodge1.gif")
     bg_style = f"""
         background: linear-gradient(rgba(10, 15, 30, 0.75), rgba(10, 15, 30, 0.85)), 
                     url("data:image/jpeg;base64,{img_base64}") no-repeat center center fixed;
